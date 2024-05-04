@@ -9,18 +9,17 @@
     height: 500px;
     border-bottom: 15px solid rgb(35, 160, 35);
     margin: 0 auto;
-    position: relative; /* para as oitras imagens respeitar a delimitação do quadro */
-    overflow: hidden;  /*tudo que sair da delimitação do quadro, não apareça */
+    position: relative; 
+    overflow: hidden;  
     background: linear-gradient(#87CEEB, #EBF6FF);
 }
 
 .pipe {
-     position: absolute; /*para nnhuma imaagem interferir no posicionamento da outra */
+     position: absolute; 
      bottom: 0;
      width: 80px;
      height: 80px;
      animation: pipe-animation 2.5s infinite linear; 
-    /* a animação com duração de 2s, velocidade linear */
 }
 
 .mario{
@@ -45,8 +44,8 @@
     background-color: #185a04d3;
     color: #fff;
     font-size: 16px;
-    border: none; /* tira a borda do botão*/
-    cursor: pointer; /* o cursor muda para a mao com o dedinho*/
+    border: none; 
+    cursor: pointer; 
 }
 
 .botao{
